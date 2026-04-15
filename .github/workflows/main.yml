@@ -43,10 +43,10 @@ jobs:
             base_image: https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2025-10-02/2025-10-01-raspios-trixie-arm64-lite.img.xz
           - name: opi5
             script: ./install_opi5.sh
-            base_image: https://mirrors.c0urier.net/linux/armbian/dl/orangepi5/archive/Armbian_26.2.1_Orangepi5_trixie_vendor_6.1.115_minimal.img.xz
+            base_image: https://dl.armbian.com/orangepi5/Trixie_vendor_minimal.img.xz
           - name: opi5b
             script: ./install_opi5.sh
-            base_image: https://github.com/armbian/community/releases/download/26.2.0-trunk.703/Armbian_community_26.2.0-trunk.703_Orangepi5b_trixie_vendor_6.1.115_minimal.img.xz
+            base_image: https://dl.armbian.com/orangepi5b/Trixie_vendor_minimal.img.xz
           - name: opi5plus
             script: ./install_opi5.sh
             base_image: https://dl.armbian.com/orangepi5-plus/Trixie_vendor_minimal.img.xz
