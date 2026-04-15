@@ -44,24 +44,31 @@ jobs:
           - name: opi5
             script: ./install_opi5.sh
             base_image: https://dl.armbian.com/orangepi5/Trixie_vendor_minimal.img.xz
+            root_location: "partition=1"
           - name: opi5b
             script: ./install_opi5.sh
             base_image: https://dl.armbian.com/orangepi5b/Trixie_vendor_minimal.img.xz
+            root_location: "partition=1"
           - name: opi5plus
             script: ./install_opi5.sh
             base_image: https://dl.armbian.com/orangepi5-plus/Trixie_vendor_minimal.img.xz
+            root_location: "partition=1"
           - name: opi5pro
             script: ./install_opi5.sh
             base_image: https://dl.armbian.com/orangepi5pro/Trixie_vendor_minimal.img.xz
+            root_location: "partition=1"
           - name: opi5max
             script: ./install_opi5.sh
             base_image: https://dl.armbian.com/orangepi5-max/Trixie_vendor_minimal.img.xz
+            root_location: "partition=1"
           - name: opi6plus
             script: ./install_opi6.sh
             base_image: https://dl.armbian.com/orangepi6-plus/Trixie_current_minimal.img.xz
+            root_location: "partition=1"
           - name: rock5c
             script: ./install_opi5.sh
             base_image: https://dl.armbian.com/rock-5c/Trixie_vendor_minimal.img.xz
+            root_location: "partition=1"
           - name: rubikpi3
             script: ./install_rubikpi3.sh
             base_image: https://people.canonical.com/~platform/images/qualcomm-iot/rubikpi3/ubuntu-server-24.04/x01/ubuntu-24.04-preinstalled-server-arm64+rubikpi3-20250926-145.yaml
